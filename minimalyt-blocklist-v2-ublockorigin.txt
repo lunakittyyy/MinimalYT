@@ -1,0 +1,38 @@
+! MinimalYT Block Filters v2
+! MinimalYT is a list of blocks for uBlock Origin.
+! The comment before each block will show what gets removed
+!Voice button
+www.youtube.com###voice-search-button > .size-default.style-default.ytd-masthead.style-scope > .ytd-button-renderer.style-scope.yt-simple-endpoint > .size-default.style-default.ytd-button-renderer.style-scope
+!Comments dislike button
+www.youtube.com###dislike-button > .ytd-toggle-button-renderer.style-scope.yt-simple-endpoint > .size-default.style-text.ytd-toggle-button-renderer.style-scope
+!Video uploader pfp
+www.youtube.com##.ytd-video-owner-renderer.style-scope.yt-simple-endpoint
+!Like/dislike ratio bar
+www.youtube.com###sentiment
+!Upload date
+www.youtube.com###date
+!Total time
+www.youtube.com##.ytp-time-duration
+www.youtube.com##.ytp-time-separator
+!Next button
+www.youtube.com##.ytp-button.ytp-next-button
+!Subtitles Button
+www.youtube.com##.ytp-button.ytp-subtitles-button
+!Comment writer pfp
+www.youtube.com###author-thumbnail > .ytd-comment-renderer.style-scope.yt-simple-endpoint
+!Seach button (you can use Enter instead!)
+www.youtube.com###search-icon-legacy
+!Homepage topic bar
+www.youtube.com###scroll-container > .ytd-feed-filter-chip-bar-renderer.style-scope
+!"More From Youtube" in menu bar
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
+!Sidebar icons
+www.youtube.com##.ytd-guide-entry-renderer.style-scope.guide-icon
+!Date and views on homepage/video sidebar
+www.youtube.com##span.ytd-video-meta-block.style-scope:nth-of-type(2)
+www.youtube.com##span.ytd-video-meta-block.style-scope:nth-of-type(1)
+!Topic bar on video sidebar
+www.youtube.com###scroll-container > .yt-chip-cloud-renderer.style-scope
+!Video uploader pfp on homepage
+www.youtube.com###details > .ytd-rich-grid-media.style-scope.yt-simple-endpoint
+
